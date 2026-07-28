@@ -6,10 +6,11 @@ import AuthProvider from "@/components/AuthProvider";
 import ToastProvider from "@/components/ToastProvider";
 import { GlobalProvider } from "@/context/GlobalContext";
 
+
 export const metadata = {
-  title: "Property Pulse",
-  keywords: "rental, property, real estate",
-  description: "find the perfect rental property",
+  verification: {
+    google: 'Tmtj5yyUkAKLOOJ93UF5a-uDmAHeY4rOdAMF_a4Xlfs',
+  },
 };
 const MainLayout = ({ children }) => {
   return (
